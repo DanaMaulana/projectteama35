@@ -1,0 +1,36 @@
+@media all and (max-width: 1000px) {
+    .header-left h4 {
+      font-size: 20px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+      }
+
+  }
+
+   /* Untuk Smartphone */
+   @media all and (max-width: 670px) {
+   
+    /* Tambahkan CSS untuk header-right */
+    .header-right {
+     display: none;
+    }
+    
+    /* Tambahkan CSS untuk menu-icon */
+    .menu-icon {
+     display: block;
+    }
+
+    img {
+      width: 150%;
+      align-items: center;
+     }
+
+    .card {
+      display: block;
+      text-align: center;
+      
+    }
+    
+  }
