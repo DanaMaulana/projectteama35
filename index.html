@@ -1,82 +1,378 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" id="home">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Progate</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Team</title>
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="container">
-                <div class="header-left">
-                    <h4>UEFA FANS CLUB</h4>
-                </div>
-                <!-- Tambahkan ikon menu disini -->
-                <span class="fa fa-bars menu-icon"></span>
-                <div class="header-right">
-                    <a href="#">HOME</a>
-                    <a href="#">NEWS</a>
-                    <a href="#">TEAM</a>
-                    <a href="#">CONTACT</a>
-                </div>
-            </div>
-        </header>
+  <!-- 
+    Anggota :
+      Dana Maulana
+      Ade Fikriatul Ilmi
+      Aditya Jaka Laksana
+  -->
+
+  <!-- Header -->
+  <section class="header">
+    <a href="#" class="logo">UEFA FANS CLUB<span>.</span></a>
+    <div class="menuToggle"></div>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </section>
+  <!-- End Header -->
+
+  <!-- Banner -->
+  <section class="banner">
+    <div class="poster">
+      <img src="img/background.png" alt="pemain">
+      <img src="img/pemain.png" alt="pemain">
     </div>
+  </section>
+  <!-- End Banner -->
 
+  <!-- News -->
+  <section id="news" class="news">
     <div class="container">
-        <h1>NEWS</h1>
-        <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/berita1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, et
-                            dolorem
-                            odit
-                            reprehenderit consectetur, sunt suscipit laudantium, tenetur voluptatum voluptate cupiditate
-                            id.
-                            Commodi obcaecati modi amet similique ad sed facere.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/berita1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, et
-                            dolorem
-                            odit
-                            reprehenderit consectetur, sunt suscipit laudantium, tenetur voluptatum voluptate cupiditate
-                            id.
-                            Commodi obcaecati modi amet similique ad sed facere.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/berita1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, et
-                            dolorem
-                            odit
-                            reprehenderit consectetur, sunt suscipit laudantium, tenetur voluptatum voluptate cupiditate
-                            id.
-                            Commodi obcaecati modi amet similique ad sed facere.</p>
-                    </div>
-                </div>
-            </div>
-
-
-
+      <div class="title">
+        <h3>News</h3>
+        <p>Klik pada salah satu team untuk melihat detail team</p>
+      </div>
+      <div class="card">
+        <div class="cardSatu">
+          <div class="newsSatu">
+            <img src="img/berita1.jpg" alt="cardSatu">
+          </div>
+          <div class="content">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet a doloribus minus rerum saepe at mollitia,
+              cum voluptatem perspiciatis doloremque!
+            </p>
+          </div>
         </div>
+        <div class="cardDua">
+          <div class="newsDua">
+            <img src="img/berita1.jpg" alt="cardSatu">
+          </div>
+          <div class="content">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet a doloribus minus rerum saepe at mollitia,
+              cum voluptatem perspiciatis doloremque!
+            </p>
+          </div>
+        </div>
+        <div class="cardTiga">
+          <div class="newsTiga">
+            <img src="img/berita1.jpg" alt="cardSatu">
+          </div>
+          <div class="content">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet a doloribus minus rerum saepe at mollitia,
+              cum voluptatem perspiciatis doloremque!
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+  <!-- End News -->
 
+  <!-- Team -->
+  <section id="team" class="team">
+    <div class="container">
+      <div class="title">
+        <h3>Team</h3>
+        <p>Klik pada salah satu team untuk melihat detail team</p>
+      </div>
+      <div class="table">
+        <table class="group-a">
+          <tr>
+            <th colspan="2">Group a</th>
+          </tr>
+          <tr>
+            <td><img src="img/turkey.png" alt="Turkey"></td>
+            <td>
+              <p>
+                Turkey
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/italy.png" alt="Italy"></td>
+            <td>
+              <p>
+                Italy
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/wales.png" alt="Wales"></td>
+            <td>
+              <p>
+                Wales
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/switzerland.png" alt="Switzerland"></td>
+            <td>
+              <p>
+                Switzerland</p>
+            </td>
+          </tr>
+        </table>
+        <table class="group-b">
+          <tr>
+            <th colspan="2">Group b</th>
+          </tr>
+          <tr>
+            <td><img src="img/denmark.png" alt="Denmark"></td>
+            <td>
+              <p>
+                Denmark
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/finland.png" alt="Finland"></td>
+            <td>
+              <p>
+                Finland
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/Belgium.png" alt="Belgium"></td>
+            <td>
+              <p>
+                Belgium
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/russia.png" alt="Russia"></td>
+            <td>
+              <p>
+                Russia
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table class="group-c">
+          <tr>
+            <th colspan="2">Group c</th>
+          </tr>
+          <tr>
+            <td><img src="img/netherlands.png" alt="Netherlands"></td>
+            <td>
+              <p>
+                Netherlands
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/Ukraine.png" alt="Ukraine"></td>
+            <td>
+              <p>
+                Ukraine
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/Austria.png" alt="Austria"></td>
+            <td>
+              <p>
+                Austria
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/Macedonia.png" alt="Makedonia"></td>
+            <td>
+              <p>
+                Macedonia
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table class="group-d">
+          <tr>
+            <th colspan="2">Group d</th>
+          </tr>
+          <tr>
+            <td><img src="img/England.png" alt="England"></td>
+            <td>
+              <p>
+                England
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/Croatia.png" alt="Croatia"></td>
+            <td>
+              <p>
+                Croatia
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/Scotland.png" alt="Skotlandia"></td>
+            <td>
+              <p>
+                Scotland
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/Czech Republic.png" alt="Czech Republic"></td>
+            <td>
+              <p>
+                Czech Republic
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table class="group-e">
+          <tr>
+            <th colspan="2"> Group e</th>
+          </tr>
+          <tr>
+            <td><img src="img/Spain.png" alt="Spain"></td>
+            <td>
+              <p>
+                Spain
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/Sweden.png" alt="Sweden"></td>
+            <td>
+              <p>
+                Sweden
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/Poland.png" alt="Poland"></td>
+            <td>
+              <p>
+                Poland
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/Slovakia.png" alt="Slowakia"></td>
+            <td>
+              <p>
+                Slovakia
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table class="group-f">
+          <tr>
+            <th colspan="2">Group f</th>
+          </tr>
+          <tr>
+            <td><img src="img/Hungary.png" alt="Hungary"></td>
+            <td>
+              <p>
+                Hungary
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/Portugal.png" alt="Portugal"></td>
+            <td>
+              <p>
+                Portugal
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/France.png" alt="France"></td>
+            <td>
+              <p>
+                France
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="img/Germany.png" alt="Germany"></td>
+            <td>
+              <p>
+                Germany
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+  <!-- End Team -->
+
+  <!-- Footer -->
+  <section class="contact" id="contact">
+    <div class="contactForm satu">
+      <h3>Ada pertanyaan/kirim masukan ?</h3>
+      <div class="inputBox">
+        <input type="text" placeholder="Email Anda">
+      </div>
+      <div class="inputBox">
+        <textarea placeholder="Pertanyaan/masukan?"></textarea>
+      </div>
+      <div class="inputBox">
+        <input type="submit" value="Kirim">
+      </div>
+    </div>
+    <div class="contactForm dua">
+      <h3>About</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, nam fugit animi veniam officia repellendus
+        iste? At dolor labore voluptatibus?
+      </p>
+      <div class="social-media">
+        <img src="img/instagram.png">
+        <img src="img/facebook.png">
+        <img src="img/twitter.png">
+      </div>
+    </div>
+    <div class="contactForm tiga">
+      <h3>Location</h3>
+      <div class="logo-alamat">
+        <div class="tempat">
+          <img src="img/location.png">
+          <p>Kebun Jeruk Jl. Simpang 5 <span>Jakarta Barat</span>
+          </p>
+        </div>
+        <div class="telpn">
+          <img src="img/telephone.png">
+          <p>021 3476589</p>
+        </div>
+        <div class="whats-app">
+          <img src="img/whatsapp.png">
+          <p>08676899021</p>
+        </div>
+        <div class="email">
+          <img src="img/email.png">
+          <p>newseuro@bola.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer" id="footer">
+    <p>Copyright &copy; 2021. All Right
+      Reserved.</p>
+  </section>
+  <!-- End Footer -->
 </body>
 
 </html>
