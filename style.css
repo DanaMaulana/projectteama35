@@ -123,7 +123,6 @@ section {
 [class="news"i] .container .title {
   position: relative;
   max-width: 100%;
-  /* background: rgb(1, 120, 199); */
 }
 
 [class="news"i] .container .title h3 {
@@ -140,17 +139,15 @@ section {
 
 [class="news"i] .container .card {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 50px;
-  /* background: rgb(182, 1, 199); */
 }
 
 [class="news"i] .cardSatu,
 .cardDua,
 .cardTiga {
   width: 273px;
-  text-align: left;
   margin: 20px;
 }
 
@@ -158,7 +155,15 @@ section {
 .newsDua,
 .newsTiga {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+}
+
+[class="news"i] .cardSatu .content,
+.cardDua .content,
+.cardTiga .content {
+  display: inline-block;
+  text-align: justify;
+  margin-left: -5%;
 }
 
 [class="news"i] .container .card img {
